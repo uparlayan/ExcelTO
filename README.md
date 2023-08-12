@@ -16,5 +16,5 @@ C:\> ExcelTO.exe "F:\Temp\INPUT.xls" "F:\Data\OUTPUT.json" 0 "0,1,2,3,4,5,6"
 3. Sheet (sayfa) numarasıdır. Sıfırdan başlar
 4. Kolonların sıra numarasıdır. A kolonu için sıfır kullanılır, B için bir ve bu böyle devam eder.
 
-### Ufak notlar
-`Delphi`'den yapılan çağrılarda `"No mapping for the Unicode character exists in the target multi-byte code page"` hatasının oluşmaması için `convertToTurkishEquivalent` metodu eklenmiş ve kullanılmıştır. Bu metod temelde Latin alfabesinin türevlerinde kullanılan fakat Türk Alfabesi'nde olmayan karakterlerin Türk Alfabesi'ndeki benzerlerine dönüştürülmesi için kullanılır.
+# UYARILAR
+- `Delphi`'den yapılan çağrılarda `"No mapping for the Unicode character exists in the target multi-byte code page"` hatasının oluşmaması için `convertToTurkishEquivalent` metodu eklenmiş ve kullanılmıştır. Bu metod temelde Latin alfabesinin türevlerinde kullanılan fakat Türk Alfabesi'nde olmayan karakterlerin Türk Alfabesi'ndeki benzerlerine dönüştürülmesi için kullanılır.
